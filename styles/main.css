@@ -6,6 +6,11 @@ body {
     background-size: cover;
 
    }
-
-
+h1 {
+    font-size: 10vw;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 30%
 }
+
