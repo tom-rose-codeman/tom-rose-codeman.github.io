@@ -17,12 +17,10 @@ h1 {
     top: 10%;
     
 }
-.border {
-
-    height: 5vh;
-    width: 100vw;
-    background-color: lightpink;
-    padding: 0%;
-    border;
+ul {
+    list-style-type: none;
+    display: block;
+    background-color: #9fcfd1;
 }
+
 
