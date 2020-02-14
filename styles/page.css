@@ -1,0 +1,60 @@
+body {
+    background-color:white;
+}
+h1{
+    text-align: center;
+    font-size: 80;
+    background-color: #c5e6c7;
+    height: 150px;
+    font-family: 'Oswald', sans-serif;
+    top: 30px;
+    
+}
+#main {
+    backgrsound-color: #dbdbdb;
+    position: relative;
+    height: 80%;
+    bakground-image: linear-gradient(90deg, #c7c7c7, #a6a6a6, #c7c7c7);
+
+}
+
+#megnu {
+    width: 1000px;
+    background-color: yellowgreen;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+
+    
+    
+}
+#menu{
+    text-align: center;
+    bacdkground-color: #4c5159;
+    bosrder: 2px solid darkslategray;
+}
+
+#menu li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: inline;
+    font-size: 80px;
+    border: 1px solid #555;
+    background-color: lightgray;
+    text-align: center;
+    margin: auto;
+    margin-right: 30;
+    margin-left: 30;
+}
+#box {
+    background-color: white;
+    margin-top: auto;
+    margin-left: 600;
+    margin-right: 600;
+    border: 1px solid #555;
+    background-color: #e8e8e8;
+}
