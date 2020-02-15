@@ -1,53 +1,134 @@
 body {
-    background-image: url(img/mount4.jpg);
-    background-repeat: no-repeat;
-    background-color: #ffdeba;
-    background-attachment: scroll;
-    background-size: cover ;
-    border: 100px;
-
-   }
-h1 {
-    font-size: 100px;
-    font-weight: 300;
-    text-decoration: underline;
-    font-family: 'Muli', sans-serif;
+    background-color:white;
+}
+h1{
     text-align: center;
-    position: relative;
-    top: 10%;
+    font-size: 80px;
+    font-weight: 200;
+    background-color: #c5e6c7;
+    height: 150px;
+    font-family: 'railway', sans-serif;
+    top: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    
     
 }
+#main {
+    backgrsound-color: #dbdbdb;
+    position: relative;
+    height: 80%;
+    bakground-image: linear-gradient(90deg, #c7c7c7, #a6a6a6, #c7c7c7);
 
-ul {
-    
-    top: 400;
+}
+
+#megnu {
+    width: 1000px;
+    background-color: yellowgreen;
+    text-align: center;
+    position: relative;
+    display: inline-block;
     list-style-type: none;
-    padding: 0;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+
+    
+    
+}
+#menu{
     text-align: center;
-    position: relative;
-    
-    
+    bacdkground-color: #4c5159;
+    bosrder: 2px solid darkslategray;
+    margin-top: -40px;
+    margin-bottom: 10px;
 }
-li {
-    font-family: 'cairo', sans-serif;
-    margin: 50px;
-    top: 50%;
-    position: relative;
-    display: inline-block;
-    font-size: 2.5vw;
-    background-color: #2a2e2d;
+
+#menu li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: inline;
+    font-size: 60px;
+    bordder: 1px solid #555;
+    backgrdound-color: lightgray;
     text-align: center;
-    border-radius: 25%;
-    width: 9vw;
+    margin: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    
     
 }
-li a {
-    background-color: #3f4a47;
-    display: inline-block;
-    border-radius: 25%;
-    width: 7vw;
-    color: #cce0db;
+#box {
+    background-color: white;
+    margin-top: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+    border: 1px solid #555;
+    background-color: #e8e8e8;
+    box-shadow: 8px 8px 8px 0px lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+     
+}
+@media only screen and (max-width: 800px) {
+    #box {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }
 
+h2 {
+    text-align: center;
+    font-family: 'railway', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+   
+    
+}
+#techlist {
+    text-align: center;
+    list-style: inside;
+    font-size: 50px;
+    list-style-type: square;
+    m
+    
+}
+#techlist li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.head {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'railway', sans-serif;
+    font-weight: bold;
+}
+.par{
+    font-family: 'Open Sans', sans-serif;
+}
+.str {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 
-
+}
+#dia {
+    display: block;
+    margin: auto;
+    margin-bottom: 0px;
+    position: relative;
+    max-width: 100%;
+    
+}
+#code1 {
+    margin: auto;
+}
+#fade {
+    margin: auto;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
