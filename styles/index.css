@@ -1,7 +1,7 @@
 body {
     background-image: url(img/mount4.jpg);
     background-repeat: no-repeat;
-    background-color: #ffdeba;
+    background-color: #080d21;
     background-attachment: scroll;
     background-size: cover ;
     border: 100px;
@@ -52,5 +52,14 @@ li a {
     
 }
 
-
+p {
+    font-size: 40px;
+    font-weight: 300;
+    
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    
+}
 
