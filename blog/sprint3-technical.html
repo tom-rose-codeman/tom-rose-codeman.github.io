@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My blog</title>
+  <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+<body>
+  <h1>Tom blog</h1>
+  <div id="main">
+    <ul id="menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./techhome.html">Tech</a></li>
+      <li><a href="./culturehome.html">Culture</a></li>
+      <li>About</li>
+    </ul>
+    <div id="box">
+      <h2>Technical 3</h2>
+      <p class="head">The differences between HTML and CSS</p>
+      <p class="par">
+        HTML on its own is effectively the content of the webpage, such as text and images. If one were to display
+        solely the HTML on a web page it would just display the content from the HTML in the order it was written, with
+        a default font, default spacing between lines, words and paragraphs, default font size and default font styling
+        such as colour and no extra styling such as underlining. It would effectively just look like a plain piece of
+        paper with writing and images in the order that its written. For this to change a website also has to
+        incorporate CSS, or cascading style sheet. CSS doesn't display anything on its own, but CSS can be used to
+        specify specific parts(called elements) of HTML, such as a paragraph, image or heading, and add specific styling
+        to the HTML. For example the second paragraph on a web page, using CSS, could be changed to have red text, have
+        a font size of 40 pixels, and have a dotted blue border around it.CSS can also be used to set the positioning of
+        an element of a page, such as set an image 30% of the way from the left side of the screen. This is just a brief
+        overview of CSS and it can so a lot more.
+      </p>
+      <P class="head">What is control flow and looping? </p>
+      <p class="par">
+        Control flow uses specific statements such as if and for, to execute instructions in a specific way rather than
+        executing instructions purely from top to bottom. An example of instructions with bad/little flow control would
+        be. my example of unloading groceries after going shopping. One could, while writing instructions on how to do
+        it, could write “check first bag look at the item on the top go put it in fridge, then return and look at the
+        second item go put it in the fridge ...” until they've written an instruction to look at every item in every
+        bag, pick it up, then put it in the fridge. This would be inefficient for a number of reasons. Firstly writing
+        out all those instructions is silly when it can be shortened to something shorter. Secondly, picking up the
+        first item in a bag the putting it away is very inefficient, It would be much more efficient if similar items
+        were picked up together and put away together, saving the amount of trips taken. Thirdly, this set of
+        instructions doesn't specify what to do with a specific item, meaning everything just goes in the fridge. A new
+        set of instructions can be made using flow control and loops to make the process more efficient and logical. An
+        example of this could be : “Firstly check the top item of the first bag. If there are items of a similar
+        category to the top item in the bag pick them up, otherwise just pick up the top item. Then check whether the
+        top items category needs to go in the fridge. If it does then put it in the fridge. Repeat process for all held
+        items until they are stored. Then do the same checking process for all the items in the first bag, then just
+        follow the same process used for checking the first bag for the rest of the bags till everything is put away.”
+        this uses control statement to follow the instructions in a specific way. For example, it uses control flow to
+        only put items in a fridge if they are meant to go in a fridge, instead of putting all items in the fridge. The
+        instructions also use loops to repeat instructions again without having to write them repeatedly. In this
+        example the instructions on how to empty a shopping bag is looped instead of written multiple times.
+      </p>
+      <p class="head">What is the DOM and how would someone interact with it?</p>
+      <p class="par">
+        The DOM or document object model is a logical hierarchical tree like structure that is used by your browser to
+        specify in what way the browser should interpret HTML CSS and JavaScript. The DOM is an important part of a
+        website as it give a logical structure for programmers to be able to use. Here is a visual representation of it.
+      </p>
+      <img id="dia" src="../styles/img/dom.png" alt="Document Object Model Diagram">
+      <p class="par">
+        In the image above, the top part (called node) of the DOM is called the document, The DOM can be manipulated in
+        various ways such as <code>getElementById('id')</code> which gets a specific element from the document with a
+        specific id, or <code>getElementsByClassName('class')</code>, which returns an array of Elements from the
+        document with a
+        specific class associated with them.
+
+      </p>
+      <p class="head">The difference between accessing data from arrays and objects.</p>
+      <p class="par">
+        Accessing data from arrays versus objects is quite different. As arrays are effectively list of objects you
+        would access them by doing:
+      </p>
+      <pre>
+        <code id="code1">
+          var arr['dog', 'cat', 'spider']
+          var a = arr[1]
+
+        </code>
+      </pre>
+      <p class="par"> This would make the variable <code>a</code> equal the second item in the array <code>arr</code>
+        keep note that the
+        first item in an array is considered the 0th item when trying to find it and the second item in an array is
+        considered the 1st item, because code is computery like that.</p>
+      <p class="par">An object is effectively a list of properties and their values. For example:</p>
+      <pre>
+        <code id="code1">
+          var man = {firstName:'joe', lastName:'billingsly', gender:'male', arms:5, hairColor:'blonde'}
+        </code>
+      </pre>
+      <p class="par">Would create an object where the property <code>hairColor</code> would equal <code>blonde</code>. Objects can be accessed in
+        specific ways. One example of this would be:</p>
+      <code>var name = man.firstName</code>
+      <p class="par">would make a variable to the property of <code>firstName</code> in the <code>man</code> object.</p>
+      <p class="head">What are functions and why are they useful.</p>
+      <p class="par">
+        Functions are reusable parts of code that allows a programmer to repeatedly use a piece of code without having
+        to rewrite code constantly. It also allows a programmer to easily identify problems with code by looking at the
+        code in the function specifically. An example function would be:
+
+      </p>
+      <pre>
+          <code id="code1">
+            function displayTotals (totals) {
+              for (var key in totals) {
+                document.getElementById(key + '-total').innerHTML = totals[key]
+              }
+          </code>
+        </pre>
+      <p class="par"> So instead of having to type out all the code in between the curly brackets every time a
+        programmer wanted to add two numbers together the programmer could just type <code>quikmath(a,b)</code> with
+        <code>a</code> and <code>b</code> being
+        two numbers and the code would be executed.</p>
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>
