@@ -72,7 +72,7 @@ h1{
     padding-right: 10px;
      
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     #box {
         margin-left: 3%;
         margin-right: 3%;
@@ -89,6 +89,18 @@ h2 {
    
     
 }
+h3 {
+    text-align: center;
+    font-family: 'railway', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+   
+    
+}
+
 #techlist {
     text-align: center;
     list-style: inside;
@@ -105,15 +117,23 @@ h2 {
     font-size: 20px;
     text-align: center;
     font-family: 'railway', sans-serif;
+    position: relative;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 4.5%;
     
 }
 .par{
     font-family: 'Open Sans', sans-serif;
+    position: relative;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 .str {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+ 
 
 }
 #dia {
