@@ -83,8 +83,9 @@ h2 {
     text-align: center;
     font-family: 'railway', sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 20px;
+    font-weight: bold;
    
     
 }
@@ -101,10 +102,10 @@ h2 {
     margin-bottom: 10px;
 }
 .head {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-family: 'railway', sans-serif;
-    font-weight: bold;
+    
 }
 .par{
     font-family: 'Open Sans', sans-serif;
